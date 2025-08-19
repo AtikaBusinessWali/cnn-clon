@@ -1,0 +1,30 @@
+[19-Aug-2025 13:52:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbggqmpv9kd6sz.users' doesn't exist in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/signup.php:17
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/signup.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/signup.php on line 17
+[19-Aug-2025 13:52:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbggqmpv9kd6sz.users' doesn't exist in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php:11
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php on line 11
+[19-Aug-2025 13:55:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbggqmpv9kd6sz.users' doesn't exist in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php:15
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php on line 15
+[19-Aug-2025 13:56:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbggqmpv9kd6sz.users' doesn't exist in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php:15
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/login.php on line 15
+[19-Aug-2025 14:02:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author_id' in 'field list' in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php:77
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php(77): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php on line 77
+[19-Aug-2025 14:20:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author_id' in 'field list' in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php:80
+Stack trace:
+#0 /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php(80): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa181.millioncoders.net/public_html/cnn clon/edit-article.php on line 80
